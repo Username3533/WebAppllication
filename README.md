@@ -6,4 +6,4 @@ Functionality:
   -Home page will describe the site and invite users to register or log in
   -Users can creat topics, entries, read and edit existing entries
 
-Installed Django using pip, initalized a local server
+Installed Django, pip, initalized venv and a local server
