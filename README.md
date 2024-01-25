@@ -7,3 +7,4 @@ Functionality:
   -Users can creat topics, entries, read and edit existing entries
 
 Installed Django, pip, initalized venv and a local server
+Created model classes and 'py manage.py makemigration app_name' + 'py manage.py migrate' to tell django to update changes
