@@ -1,5 +1,4 @@
-# WebAppllication  
-Web Journal using Django  
+Web Journal Web Appllication using Django  
 
 Functionality:  
 
