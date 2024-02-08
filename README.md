@@ -15,4 +15,5 @@ Things Learned:
 -Mapped urls using django.url and app.url and made a template for a home page  
 -Making pages: specify url pattern, write view function, write template  
 -Created page templates and other pages that inherit from the base.html template  
--Created form for adding new topics by users
+-Created form for adding new topics by users  
+-Added ability to edit posts
