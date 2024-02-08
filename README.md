@@ -18,3 +18,7 @@ Things Learned:
 -Created form for adding new topics by users  
 -Added ability to create new entries that are tied to topic id
 -Added ability to edit posts  
+
+Usability:  
+Users can create topics and entries tied to the ID of those topics in a journal format. They can then edit those entries and change them if they want.  
+Basic functionality is complete, now need to creat unique user login and their own sets of topics and entries tied to the user ID  
