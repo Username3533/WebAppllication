@@ -16,4 +16,5 @@ Things Learned:
 -Making pages: specify url pattern, write view function, write template  
 -Created page templates and other pages that inherit from the base.html template  
 -Created form for adding new topics by users  
--Added ability to edit posts
+-Added ability to create new entries
+-Added ability to edit posts  
