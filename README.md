@@ -18,6 +18,8 @@ Things Learned:
 -Created form for adding new topics by users  
 -Added ability to create new entries that are tied to topic id
 -Added ability to edit posts  
+-Using csrf tokens  
+-
 
 Usability:  
 Users can create topics and entries tied to the ID of those topics in a journal format. They can then edit those entries and change them if they want.  
