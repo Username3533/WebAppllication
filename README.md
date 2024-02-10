@@ -19,7 +19,7 @@ Things Learned:
 -Added ability to create new entries that are tied to topic id
 -Added ability to edit posts  
 -Using csrf tokens  
--
+-Created user app in django to make topics and entries attached to user ID  
 
 Usability:  
 Users can create topics and entries tied to the ID of those topics in a journal format. They can then edit those entries and change them if they want.  
