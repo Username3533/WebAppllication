@@ -21,7 +21,7 @@ Things Learned:
 -Using csrf tokens  
 -Created user app in django to make topics and entries attached to user ID  
 -Created user registration and login using django  
--Locked pages not created by current users
+-Locked pages not created by current users so all journals are private  
 
 Usability:  
 Users can create topics and entries tied to the ID of those topics in a journal format. They can then edit those entries and change them if they want.  
