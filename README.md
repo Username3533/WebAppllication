@@ -20,7 +20,7 @@ Things Learned:
 -Added ability to edit posts  
 -Using csrf tokens  
 -Created user app in django to make topics and entries attached to user ID  
--Created user registration and login using django  
+-Created user registration and login using django forms  
 -Locked pages not created by current users so all journals are private  
 
 Usability:  
