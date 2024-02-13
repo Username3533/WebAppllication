@@ -22,7 +22,6 @@ Things Learned:
 -Created user app in django to make topics and entries attached to user ID  
 -Created user registration and login using django forms  
 -Locked pages not created by current users so all journals are private  
+-Users can register, log in, log out, create topics, create and edit entries about those topics, and entries can only be viewd by that user
 
-Usability:  
-Users can create topics and entries tied to the ID of those topics in a journal format. They can then edit those entries and change them if they want.  
-Basic functionality is complete, now need to creat unique user login and their own sets of topics and entries tied to the user ID  
+
