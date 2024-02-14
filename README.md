@@ -24,4 +24,4 @@ Things Learned:
 -Locked pages not created by current users so all journals are private  
 -Users can register, log in, log out, create topics, create and edit entries about those topics, and entries can only be viewd by that user
 
-
+-Loaded bootstrap4  
