@@ -25,5 +25,6 @@ Things Learned:
 -Users can register, log in, log out, create topics, create and edit entries about those topics, and entries can only be viewd by that user  
 -Completed fully functional web app for journaling different topics with multiple entries all specific to one user  
 
-Styling using bootstrap  
+Styling using bootstrap:  
+
 -Loaded bootstrap4  
