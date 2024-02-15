@@ -22,6 +22,8 @@ Things Learned:
 -Created user app in django to make topics and entries attached to user ID  
 -Created user registration and login using django forms  
 -Locked pages not created by current users so all journals are private  
--Users can register, log in, log out, create topics, create and edit entries about those topics, and entries can only be viewd by that user
+-Users can register, log in, log out, create topics, create and edit entries about those topics, and entries can only be viewd by that user  
+-Completed fully functional web app for journaling different topics with multiple entries all specific to one user  
 
+Styling using bootstrap  
 -Loaded bootstrap4  
