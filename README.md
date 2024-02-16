@@ -28,3 +28,4 @@ Things Learned:
 Styling using bootstrap:  
 
 -Loaded bootstrap4  
+-Created collapsable nav bar with buttons based on login status using if statements  
