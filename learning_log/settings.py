@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-@=ol$)1w)rhz^-b07_m6xmdddkr*7vz*^w3e#66@uz2215)_e*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -33,6 +33,11 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     #my apps
     'learning_logs',
+    'users',
+
+    #third party apps
+    'bootstrap4',
+
     #djago apps
     'django.contrib.admin',
     'django.contrib.auth',
@@ -124,3 +129,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# My settings
+LOGIN_URL = 'users:login'
