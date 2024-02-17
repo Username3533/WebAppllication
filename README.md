@@ -29,4 +29,5 @@ Styling using bootstrap:
 
 -Loaded bootstrap4  
 -Created collapsable nav bar with buttons based on login status using if statements  
--Styling home page using bootstrap jumbotron
+-Styled home page using bootstrap jumbotron  
+-Styled login page using boostrap forms
