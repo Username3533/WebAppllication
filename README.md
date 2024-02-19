@@ -10,10 +10,10 @@ Current bugs:
   -When logging out, users see a 404 error instead of logout page
 
 Features to add:  
-  -Delete entry/topics
-  -Upload picture for profile
-  -Add friends by username
-  -Visit friends topics
+  -Delete entry/topics  
+  -Upload picture for profile  
+  -Add friends by username  
+  -Visit friends topics  
 
 Things Learned:  
 
