@@ -6,6 +6,15 @@ Functionality:
   -Home page will describe the site and invite users to register or log in  
   -Users can creat topics, entries, read and edit existing entries  
 
+Current bugs:  
+  -When logging out, users see a 404 error instead of logout page
+
+Features to add:  
+  -Delete entry/topics
+  -Upload picture for profile
+  -Add friends by username
+  -Visit friends topics
+
 Things Learned:  
 
 -Installed Django, pip, initalized virtual environment and a local server ('py -3 -m venv .venv' -and- '.venv\scripts\activate')  
