@@ -7,7 +7,7 @@ Functionality:
   -Users can creat topics, entries, read and edit existing entries  
 
 Current bugs:  
-  -When logging out, users see a 404 error instead of logout page  
+  -When logging out, users see a 405 error instead of logout page  
     fixed technical bug, was not using post request for logout - working on styling issues
 
 Features to add:  
