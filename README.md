@@ -8,7 +8,7 @@ Functionality:
 
 Current bugs:  
   -When logging out, users see a 405 error instead of logout page  
-    fixed technical bug, was not using post request for logout - working on styling issues
+    fixed technical bug, was not using post request for logout - working on styling issues - fixed: class="btn btn-link"
 
 Features to add:  
   -Delete entry/topics  
