@@ -27,7 +27,7 @@ Form Handling: Implementing forms for adding new topics and entries.
 Security Measures: Utilizing CSRF tokens and implementing private journals.  
 Bootstrap Styling: Styling the application using Bootstrap 4, including navigation bars and form styling.  
 
-Styling  
+Styling:  
 Navigation Bar: Collapsible navigation bar with dynamic buttons based on user login status.  
 Home Page: Styled using Bootstrap Jumbotron for an attractive display.  
 Login Page: Bootstrap forms used for a clean and user-friendly login interface.  
