@@ -1,44 +1,31 @@
-Web Journal Web Appllication using Django  
+Web Journal Web Application using Django
+Overview
+This project is a web journal application developed using Django, a high-level Python web framework. The application allows users to log topics of interest, create entries, and manage their journal content.
 
-Functionality:  
-
-  -Allows users to log topics they are interested in  
-  -Home page will describe the site and invite users to register or log in  
-  -Users can creat topics, entries, read and edit existing entries  
-
-Current bugs:  
-  -When logging out, users see a 405 error instead of logout page  
-    fixed technical bug, was not using post request for logout - working on styling issues - fixed: class="btn btn-link"
-
-Features to add:  
-  -Delete entry/topics  
-  -Upload picture for profile  
-  -Add friends by username  
-  -Visit friends topics  
-
-Things Learned:  
-
--Installed Django, initalized virtual environment and a local server ('py -3 -m venv .venv' -and- '.venv\scripts\activate')  
--Created model classes and 'py manage.py makemigration app_name' + 'py manage.py migrate' to tell django to update changes  
--Created superuser as admin and made topics based on the models made and migrated  
--Made a many-to-one entry model so multiple entries can be linked to one topic and will cascade delete  
--Mapped urls using django.url and app.url and made a template for a home page  
--Making pages: specify url pattern, write view function, write template  
--Created page templates and other pages that inherit from the base.html template  
--Created form for adding new topics by users  
--Added ability to create new entries that are tied to topic id
--Added ability to edit posts  
--Using csrf tokens  
--Created user app in django to make topics and entries attached to user ID  
--Created user registration and login using django forms  
--Locked pages not created by current users so all journals are private  
--Users can register, log in, log out, create topics, create and edit entries about those topics, and entries can only be viewd by that user  
--Completed fully functional web app for journaling different topics with multiple entries all specific to one user  
-
-Styling using bootstrap:  
-
--Loaded bootstrap4  
--Created collapsable nav bar with buttons based on login status using if statements  
--Styled home page using bootstrap jumbotron  
+Functionality
+User Authentication: Users can register or log in to access the application.
+Topic Management: Users can create, read, and edit topics.
+Entry Creation: Users can create entries for their topics, each entry can be edited and managed.
+Security: Private journals ensure that only the creator can view and edit their entries.
+Current Bugs
+Logout Error: Users encounter a 405 error when logging out. Fixed by implementing a POST request for logout.
+Features to Add
+Delete Functionality: Allow users to delete entries and topics.
+Profile Picture Upload: Enable users to upload a profile picture.
+Friend System: Implement a friend system to connect with other users.
+Friend's Topics Viewing: Allow users to view topics created by their friends.
+Lessons Learned
+Django Setup: Installation and initialization of Django, including setting up a virtual environment.
+Model Management: Creating and migrating model classes to update database changes.
+User Management: Setting up user authentication, registration, and login using Django forms.
+Page Creation: Mapping URLs, writing view functions, and creating page templates.
+Form Handling: Implementing forms for adding new topics and entries.
+Security Measures: Utilizing CSRF tokens and implementing private journals.
+Bootstrap Styling: Styling the application using Bootstrap 4, including navigation bars and form styling.
+Styling
+Navigation Bar: Collapsible navigation bar with dynamic buttons based on user login status.
+Home Page: Styled using Bootstrap Jumbotron for an attractive display.
+Login Page: Bootstrap forms used for a clean and user-friendly login interface.
+Topic Pages: Styling applied to topic and topics pages for improved readability and aesthetics.
 -Styled login page using boostrap forms  
 -Styled topic and topics html pages
