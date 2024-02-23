@@ -1,6 +1,6 @@
 Web Journal Web Application using Django  
 
-#Overview:  
+Overview:  
 This project is a web journal application developed using Django, a high-level Python web framework. The application allows users to log topics of interest, create entries, and manage their journal content.  
   
 Functionality:  
